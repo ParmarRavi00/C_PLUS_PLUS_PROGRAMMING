@@ -1,4 +1,4 @@
-//  4)  WAP to create simple calculator using class
+//  4)  WAP to create simple calculator using class.
 
 #include<iostream>
 using namespace std;

@@ -1,11 +1,10 @@
-/* 5)  Define a class to represent a bank account. Include the following members:  */
+/* 4)  Define a class to represent a bank account. Include the following members:  */
 
 #include<iostream>
 using namespace std;
 
-class bank{
+class bank_account{
 	
-	string name, acc_type;
 	int balance, acc_no, amount;
 	
 	public:
@@ -14,15 +13,9 @@ class bank{
 	public:
 	void get()
 	{
-		cout << "\n\nPlease Enter Your Name :- ";
-		cin >> name;
-		
-		cout << "\nEnter Your 12-Digit Account Number :- ";
+		cout << "\n\nEnter Your 12-Digit Account Number :- ";
 		cin >> acc_no;
-		
-		cout << "\nEnter Account Type :- ";
-		cin >> acc_type;
-		
+	
 		cout << "\nEnter Balance :- ";
 		cin >> balance;
 	}
@@ -38,22 +31,15 @@ class bank{
 	
 	void Credit()
 	{
-		cout << "\n\nAccount Holder Name :- " << name;
 		
 		cout << "\nYour Account Number :- " << acc_no;
-		
-		cout << "\nYour Account Type :- " << acc_type;
 		
 		cout << "\nTotal Amount :- " << balance + amount; 
 	}
 	
 	void Debit()
-	{
-		cout << "\n\nAccount Holder Name :- " << name;
-		
+	{	
 		cout << "\nYour Account Number :- " << acc_no;
-		
-		cout << "\nYour Account Type :- " << acc_type;
 		
 		cout << "\nTotal Amount :- " << balance - amount; 
 	}
@@ -69,7 +55,7 @@ int main()
 	{
 		cout << "\n\xb2\xb2\xb2\xb2\xb2 Banking System \xb2\xb2\xb2\xb2\xb2";
 	
-	bank obj;
+	bank_account obj;
 	
 	obj.get();
 	

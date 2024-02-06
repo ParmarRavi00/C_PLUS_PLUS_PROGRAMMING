@@ -5,8 +5,6 @@ using namespace std;
 
 class calculator{
 	
-	int num1, num2, result;
-	
 	public:
 		
 		void area(int l, int w)
