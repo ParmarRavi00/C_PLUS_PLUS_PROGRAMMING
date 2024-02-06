@@ -7,8 +7,8 @@ using namespace std;
 class RockPaperScissor {
 public:
     void displayMenu() {
-        cout << "Welcome to Rock Paper Scissor Game!";
-        cout << "1. Rock\n2. Paper\n3. Scissor\n4. Exit";
+        cout << "\n\nWelcome to Rock Paper Scissor Game!";
+        cout << "\n1. Rock\n2. Paper\n3. Scissor\n4. Exit";
     }
 
     void playGame() {
